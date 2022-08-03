@@ -9,9 +9,13 @@
 
 ## Laravelプロジェクト作成
 `composer create-project laravel/laravel=8.* app --prefer-dist`
+.envのDBをdockerコンテナに合わせる
 
 ## laravel/uiをインストール
 `composer require laravel/ui:3.*`
+
+## vueのベースを作る
+`php artisan ui vue`
 
 ## 認証追加
 `php artisan ui vue --auth`
@@ -26,4 +30,5 @@
 
 ## コンパイル
 `npm install`
+## フロントエンドビルド実行
 `npm run dev`
