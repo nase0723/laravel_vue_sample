@@ -20,15 +20,15 @@
 ## 認証追加
 `php artisan ui vue --auth`
 
-<!-- ## npm install
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-`source ~/.bashrc`
-`nvm install --lts`
-
-## vue.js install
-`npm install vue@next vue-loader@next @vue/compiler-sfc` -->
-
-## コンパイル
+## フロントエンドパッケージインストール
 `npm install`
+
+## Vue3を使う場合
+`npm uninstall vue && npm uninstall vue-loader && npm uninstall vue-template-compiler`
+`npm i -save-dev laravel-mix@next vue@next && npm i -D @vue/compiler-sfc && npm i vue-loader`
+
+## Vue Routerインストール
+`npm install --save vue-router`
+
 ## フロントエンドビルド実行
 `npm run dev`
