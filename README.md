@@ -19,13 +19,13 @@
 
 ## vueのベースを作る
 `php artisan ui vue`
-(コンテナの外)
 
 ## 認証追加
 `php artisan ui vue --auth`
-(コンテナの外)
 
 ## フロントエンドパッケージインストール
+(コンテナの外)
+
 `npm install`
 
 `npm install vue-loader@^15.9.8 --save-dev --legacy-peer-deps`
