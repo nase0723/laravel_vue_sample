@@ -5,6 +5,8 @@ import TaskCreateComponent from "./components/TaskCreateComponent";
 import TaskShowComponent from "./components/TaskShowComponent";
 import TaskEditComponent from "./components/TaskEditComponent";
 
+require('./bootstrap');
+
 window.Vue = require('vue').default;
 
 Vue.use(VueRouter);
