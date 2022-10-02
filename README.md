@@ -19,9 +19,11 @@
 
 ## vueのベースを作る
 `php artisan ui vue`
+(コンテナの外)
 
 ## 認証追加
 `php artisan ui vue --auth`
+(コンテナの外)
 
 ## フロントエンドパッケージインストール
 `npm install`
