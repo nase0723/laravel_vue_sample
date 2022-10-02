@@ -9,6 +9,7 @@
 
 ## Laravelプロジェクト作成
 `composer create-project laravel/laravel=8.* app --prefer-dist`
+
 `cd app`
 
 .envのDBをdockerコンテナに合わせる
